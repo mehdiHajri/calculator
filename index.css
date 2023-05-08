@@ -1,0 +1,32 @@
+
+ 
+  
+  
+  .calculator {
+    width: 300px;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .calculator button {
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: #e6e6e6;
+    cursor: pointer;
+  }
+  .result {
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+  }

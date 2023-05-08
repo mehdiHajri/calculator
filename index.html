@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+     <title>Calculator</title>
+</head>
+<body>
+   <div class="calculator">
+    <div class="result" id="result"></div>
+    
+    <button onclick="startResult('1')">1</button>
+    <button onclick="startResult('2')">2</button>
+    <button onclick="startResult('3')">3</button>
+    <button onclick="startResult('4')">4</button>
+    <button onclick="startResult('5')">5</button>
+    <button onclick="startResult('6')">6</button>
+    <button onclick="startResult('7')">7</button>
+    <button onclick="startResult('8')">8</button>
+    <button onclick="startResult('9')">9</button>
+    <button onclick="startResult('0')">0</button>  
+    <button class="operator" onclick="startResult('+')">+</button>
+    <button class="operator" onclick="startResult('-')">-</button>
+    <button class="operator" onclick="startResult('*')">*</button>
+    <button class="operator" onclick="startResult('/')">/</button>
+    <button class="operator" onclick="clearResult('AC')">AC</button>
+    <button onclick="startResult('.')">.</button>
+    <button onclick="calculateResult()">=</button>
+    <button onclick="archivee()">arch</button>
+    <script src="./main.js"></script>
+</body>
+</html>
