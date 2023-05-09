@@ -1,6 +1,7 @@
 var archive=[]
-function startResult(num){
-    document.getElementById("result").textContent+=num
+function startResult(str){
+  var r =  $("#result").text()
+  $("#result").text(r+str) 
 }
 
 function clearResult() {
@@ -8,7 +9,7 @@ function clearResult() {
   }
   function calculateResult() {
     var result = eval(document.getElementById('result').textContent)
-    document.getElementById('result').textContent = result
+  document.getElementById('result').textContent = result
     archive.push(result)
   }
   function archivee(){
